@@ -1,0 +1,9 @@
+# ninja log v5
+3	1664	1654100034937655749	test/CMakeFiles/BrainfuckTests.dir/MemoryTests.cpp.o	fb332e3b36017355
+3	7828	1654100041089732216	test/CMakeFiles/BrainfuckTests.dir/BrainfuckTests.cpp.o	9251bc40b97dba9
+1	365	1654100056057915463	src/CMakeFiles/brainfuck.dir/Brainfuck.cpp.o	6eab820ddc645588
+365	376	1654100056069915607	src/libbrainfuck.a	9fa23a6682335666
+376	685	1654100056373919287	test/BrainfuckTests	8471ce547073948d
+1	20	1654100186879363599	test/CMakeFiles/BrainfuckTests.dir/BrainfuckTests.cpp.o	9251bc40b97dba9
+1	823	1654100360892941544	test/CMakeFiles/BrainfuckTests.dir/MemoryTests.cpp.o	fb332e3b36017355
+1	829	1654100411525341604	test/CMakeFiles/BrainfuckTests.dir/MemoryTests.cpp.o	fb332e3b36017355

@@ -4,31 +4,17 @@
 struct Memory final {
     using MemoryCell = unsigned char;
 
-    MemoryCell get() const {
-        return m;
-    }
+    MemoryCell get() const { return memory_[*it_]; }
 
-    void set(MemoryCell const value) {
-        // TODO
-    }
+    void set(MemoryCell const value) { memory_[*it_] = value; }
 
-    void increment() {
-        // TODO
-    }
+    void increment() { memory_[*it_] += 1; }
 
-    void decrement() {
-        // TODO
-    }
+    void decrement() { memory_[*it_] -= 1; }
 
-    void moveLeft() {
-        // TODO
-    }
+    void moveLeft() { it_--; }
 
-    void moveRight() {
-
-
-
-    }
+    void moveRight() { it_++; }
 
     Memory()
         : memory_(2000, 0)

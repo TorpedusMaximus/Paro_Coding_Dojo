@@ -24,31 +24,31 @@ std::string Brainfuck::interpret(Code const& code, Input const& input) const {
                 result += memory.get();
                 break;
             case ',':
-                memory.set(input.get());
+                //memory.set(input.get());
                 break;
             case '[':
-                if (memory.get() == 0) {
-                    int depth = 1;
-                    while (depth > 0) {
-                        if (code[++code.getPosition()] == '[') {
-                            ++depth;
-                        } else if (code[code.getPosition()] == ']') {
-                            --depth;
-                        }
-                    }
-                }
+//                if (memory.get() == 0) {
+//                    int depth = 1;
+//                    while (depth > 0) {
+//                        if (code[++code.getPosition()] == '[') {
+//                            ++depth;
+//                        } else if (code[code.getPosition()] == ']') {
+//                            --depth;
+//                        }
+//                    }
+//                }
                 break;
             case ']':
-                if (memory.get() != 0) {
-                    int depth = 1;
-                    while (depth > 0) {
-                        if (code[--code.getPosition()] == '[') {
-                            --depth;
-                        } else if (code[code.getPosition()] == ']') {
-                            ++depth;
-                        }
-                    }
-                }
+//                if (memory.get() != 0) {
+//                    int depth = 1;
+//                    while (depth > 0) {
+//                        if (code[--code.getPosition()] == '[') {
+//                            --depth;
+//                        } else if (code[code.getPosition()] == ']') {
+//                            ++depth;
+//                        }
+//                    }
+//                }
                 break;
             default:
                 break;
