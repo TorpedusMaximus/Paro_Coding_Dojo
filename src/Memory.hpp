@@ -5,7 +5,7 @@ struct Memory final {
     using MemoryCell = unsigned char;
 
     MemoryCell get() const {
-        return {}; // TODO
+        return m;
     }
 
     void set(MemoryCell const value) {
@@ -25,7 +25,9 @@ struct Memory final {
     }
 
     void moveRight() {
-        // TODO
+
+
+
     }
 
     Memory()

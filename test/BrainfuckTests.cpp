@@ -12,7 +12,7 @@ TEST_CASE( "Brainfuck interpreter test cases", "[interp]" ) {
     SECTION( "empty code evaluates to empty result" ) {
         Code code{convertToString("")};
         Input input{convertToString("")};
-        REQUIRE( interpreter.interpret(code, input) == convertToString("todo") );
+        REQUIRE( interpreter.interpret(code, input) == convertToString("") );
     }
 
 #if 0

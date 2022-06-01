@@ -1,0 +1,8 @@
+/home/tabaluga/CLionProjects/Paro_Coding_Dojo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tabaluga/CLionProjects/Paro_Coding_Dojo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tabaluga/CLionProjects/Paro_Coding_Dojo/cmake-build-debug/src/CMakeFiles/brainfuck.dir
+/home/tabaluga/CLionProjects/Paro_Coding_Dojo/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/home/tabaluga/CLionProjects/Paro_Coding_Dojo/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/home/tabaluga/CLionProjects/Paro_Coding_Dojo/cmake-build-debug/test/CMakeFiles/BrainfuckTests.dir
+/home/tabaluga/CLionProjects/Paro_Coding_Dojo/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/home/tabaluga/CLionProjects/Paro_Coding_Dojo/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -Wall -rdynamic CMakeFiles/BrainfuckTests.dir/BrainfuckTests.cpp.o CMakeFiles/BrainfuckTests.dir/MemoryTests.cpp.o -o BrainfuckTests  ../src/libbrainfuck.a 

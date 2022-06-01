@@ -16,16 +16,29 @@ TEST_CASE( "getting after setting gives the same value", "[memory]" ) {
 
 #if 0
 TEST_CASE( "increment", "[memory]" ) {
-    // TODO
+    Memory memory;
+    memory.set(0);
+    memory.increment();
+    REQUIRE( memory.get() == '1' );
 }
 
 
 TEST_CASE( "decrement", "[memory]" ) {
-    // TODO
+    Memory memory;
+    memory.set(1);
+    memory.decrement();
+    REQUIRE( memory.get() == '0' );
 }
 
+
 TEST_CASE( "memory position can be moved around", "[memory]" ) {
-    // TODO
+    Memory memory;
+    memory.set(0);
+    memory.moveRight();
+    memory.set(1);
+    REQUIRE( memory.get() == '1' );
+    memory.moveLeft();
+    REQUIRE( memory.get() == '0' );
 }
 
 #endif
